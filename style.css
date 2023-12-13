@@ -22,16 +22,23 @@ gap: 10px;
 }
 
 .mensagem{
+    border-radius: 50px;
+    background-color: gray;
+
 
 }
 .sino{
+    border-radius: 50px;
+
 
 }
-
 .lupa{
-  
-}
+    border-radius: 50px;
 
+
+}
 .seta{
+    border-radius: 50px;
+
     
 }
