@@ -96,22 +96,38 @@ border: 0px;
     z-index: 2;
     bottom: 0px;
     right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
      
 }
 
+.seta svg {
+    width: 10px;
+    height: 10px;
+}
+
+.badge{
+    position: relative;
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+
+
+
+}
 .notificacao{
     border-radius: 50px;
     fill: white;
-    background-color: gray;
+    background-color: red;
     border: none;
     padding: 0px;
     height: 15px;
     width: 15px;
     position: absolute;
     z-index: 2;
-    bottom: 0px;
+    top: 0px;
     right: 0px;
-
-
 }
+
